@@ -1,0 +1,13 @@
+[package]
+name = "rust-string-random"
+version = "0.1.0"
+authors = ["mrpan <1049058427@qq.com>"]
+edition = "2018"
+description = "easy to use random string generator\n"
+readme = "README.md"
+keywords = ["random", "string", "string-random"]
+categories = ["algorithms", "no-std"]
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies.rand]
+version = "0.7.3"
